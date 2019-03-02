@@ -1,0 +1,40 @@
+.loginMsg{
+  display: none;
+}
+.loginInput{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  height: 34px;
+  padding: 0;
+  background-color: transparent;
+  border-radius: initial;
+  box-shadow: none;
+  border-bottom: 1px solid #e3e6eb;
+  transition: all .3s ease-in-out 0s;
+  letter-spacing: .1px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255);
+}
+.loginInput:hover{
+  border-bottom: 1px solid #8a8a8a;
+}
+.loginInput:focus{
+  /* border-color: #00a3fe; */
+}
+.loginLabel{
+  transition: all .3s ease-in-out 0s;
+  pointer-events: none;
+  color: #8a8a8a;
+  position: relative;
+  top: 30px;
+  font-size: 13px;
+}
+.labelActive{
+  font-size: 12px;
+  top: 5px;
+}
+.container{
+  position: relative;
+}
